@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full{
+    width: 70%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left{
+    position: initial;
+    background-color: rgb(126, 219, 231); 
+    padding: 25px;
+}
+.right{
+    position: initial;
+    background-color: rgb(162, 202, 206);
+    padding: 25px;
+}
+.image,.contact,.skills,.language,.hobbies,.title,.summary,.achivment,.education,.extra-curiculam{
+    margin-bottom: 30px;
+}
+.h2{
+    background-color: rgb(4, 96, 150);
+}
+table, th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    height: 40px;
+    background-color:silver;
+}
+td{
+    height: 30px;
+    text-align: left;
+    font-weight: 500;
+}
+.para-style{
+    text-align: justify;
+    line-height:1.4;
+    font-size:17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.entities{
+    text-align: right;
+   font-size: 12px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
